@@ -1,10 +1,9 @@
-# In this file we will have our code to
-# run the Simple Adventure Game
+# In this file we will have our code to run the Simple Adventure Game
+
+import random
 
 def main():
-    print("Hello World. This is my game. Test Balloon.")
-    if 1 == 2-1:
-        print("Math works")
+    print(f"Let's get a random number: {random.randint(1,20)}")
     
 if __name__ == "__main__":
     main()
